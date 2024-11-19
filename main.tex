@@ -52,6 +52,37 @@ gdzie:
 \end{itemize}
 
 \vspace{0.5cm}
+Wzór ten jest prawdziwy dla kulki poruszającej się w nieograniczonej objętości cieczy. Z przycyzyn oczywistych nie dysponujemy basenem badanej cieczy i jej opadanie będziemy badać w cylindrze. W takiej sytuacji siła oporu jest dany wzorem.
+\[F=6\pi\mu rv(1+2.4\frac{r}{R})\]
+gdzie:
+\begin{itemize}
+    \item R-promień cylindra
+\end{itemize}
+Zgodnie z drugą zasadą dynamiki Newtona przyspieszenie kulki dane jest wzorem.
+\[ma=F_c-F_w-F_o\]
+gdzie
+\begin{itemize}
+    \item $F_c$-siła ciężkości
+    \item $F_w$-siła wyporu
+    \item $F_o$-siła oporu
+\end{itemize}
+alternatywnie
+\[m\frac{dv}{dt}=F_c-F_w-Kv\]
+gdzie
+\begin{itemize}
+    \item K=$6\pi\mu rv(1+2.4\frac{r}{R})$
+\end{itemize}
+Jest to równanie różniczkowe. Jego rozwiąznie jest postaci.
+\[v(t)=v_gr+(v_0-v_gr)e^{-\frac{t}{\tau}}\]
+Ruch kulki po czasie rzędu $t=3\tau$ jest w przybliżeniu ruchem jednostajnym. Oczywiście w takim ruchu przyspiesznie a=0.
+\[F_c-F_w-F_o=0\]
+\[mg-\rho Vg-6\pi\mu rv_{gr}(1+2.4\frac{r}{R})=0\]
+\[mg-\rho\pi\frac{4}{3}r^3g-6\pi\mu rv_{gr}(1+2.4\frac{r}{R})=0\]
+\[\mu=\frac{g(m-\rho\frac{4}{3}\pi r^3)}{6\pi rv_{gr}(1+2.4\frac{r}{R})}\]
+Prędkość graniczna można wyznaczyć mając drogę jaką pokonuje kulka i czas.\\
+Z kolei do wyliczenia objętości wystarczy średnica kulki, która jest o wiele łatwiejsza do wyznaczenia.
+\[V=\frac{4}{3}\pi r^3=\frac{1}{6}\pi d\]
+\[\mu=\frac{gt(m-\rho\frac{1}{6}\pi r^3)}{3\pi l(1+2.4\frac{r}{R})}\]
 
 Pomiar współczynnika lepkości pozwala na charakteryzację właściwości fizycznych cieczy, takich jak jej płynność czy zdolność do tłumienia ruchu.
 
